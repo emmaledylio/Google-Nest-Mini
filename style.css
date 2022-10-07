@@ -1,0 +1,96 @@
+.ul_bouton{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.logo_google{
+    width: 50px;
+    height: 50px;
+}
+
+.video_nest_mini{
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 650px;
+}
+
+.bouton_centre{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.div_famille{
+    color: white;
+    background-image: url("image/Google_Home_Mini_Family_Time_-_Chalk_grande.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.gris{
+    background-color: grey;
+}
+
+.h2{
+    color: white;
+}
+
+.patie_blanche{
+    color: aqua;
+    background-image: url("image/nest_mini_blanc.jpeg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+
+}
+
+.p1{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.p2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.p3{
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
