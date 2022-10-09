@@ -234,3 +234,44 @@ p{
 .p_down{
     font-size: 130%;
 }
+
+@media screen and (max-width: 800px) {
+    .p1{
+        font-size: 80%;
+        
+    }
+    .p2{
+        font-size: 80%;
+        
+    }
+    .p3{
+        font-size: 80%;
+        position: absolute;
+        top: 520px;
+        left: 220;
+    }
+    .charbon{
+        position: absolute;
+        top: 320px;
+        left: 50;
+        font-size: 100%;
+    }
+    .aqua{
+        position: absolute;
+        top: 420px;
+        left: 160;
+        font-size: 100%;
+    }
+    .corail{
+        position: absolute;
+        top: 270px;
+        left: 220;
+        font-size: 100%;
+    }
+    .galet{
+        position: absolute;
+        top: 370px;
+        left: 320;
+        font-size: 100%;
+    }
+}
