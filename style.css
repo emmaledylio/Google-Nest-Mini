@@ -7,6 +7,8 @@
 }
 
 a{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
     list-style: none;
     text-decoration: none;
     color: black;
@@ -21,6 +23,11 @@ nav{
 
 h2{
     text-align: center;
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
 }
 
 .logo_google{
@@ -50,6 +57,9 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    font-size: 300%;
+    text-shadow: 2px 2px 5px black;
 
 
 }
@@ -63,7 +73,7 @@ h2{
 }
 
 .patie_blanche{
-    color: aqua;
+    color: grey;
     background-image: url("image/nest_mini_blanc.jpeg");
     background-repeat: no-repeat;
     height: 100vh;
@@ -77,20 +87,150 @@ h2{
 }
 
 .p1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 150;
+    right: 120;
+    font-size: 130%;
 
 }
 
 .p2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 120;
+    right: 150;
+    font-size: 130%;
 }
 
 .p3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
     position: absolute;
-    top: 200px;
-    left: 0;
+    top: 250px;
+    left: 120;
+    font-size: 130%;
+}
+
+.bulle{
+    background-image: url("image/nest_mini_noir.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.color{
+    background-image: url("image/color_nest_mini.jpeg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-position: center;
+}
+
+.color{
+    position: relative;
+}
+
+.charbon{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    position: absolute;
+    top: 180px;
+    left: 420;
+    font-size: 130%;
+    color: grey;
+}
+
+.galet{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    position: absolute;
+    top: 260px;
+    left: 970;
+    font-size: 130%;
+    color: grey;
+}
+
+.corail{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    position: absolute;
+    top: 80px;
+    left: 780;
+    font-size: 130%;
+    color: grey;
+}
+
+.aqua{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    position: absolute;
+    top: 350px;
+    left: 630;
+    font-size: 130%;
+    color: grey;
+}
+
+.image{
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+    
+}
+.p_image{
+  
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+    
+}
+
+.p_mur{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 130%;
+    color: white;
+}
+.p_son{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 130%;
+    color: white;
+}
+.p_matériaux{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 130%;
+    color: white;
+}
+
+.block{
+    background-color: grey;
+}
+
+.google_down{
+    display: flex;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+.down{
+    display: block;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.p_down{
+    font-size: 130%;
 }
